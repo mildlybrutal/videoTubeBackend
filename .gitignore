@@ -1,3 +1,5 @@
 node_modules
+./.env
+D:\Udemy\backend\videoTubeBackend\.env
 .env.sample
 /src/.env
