@@ -1,4 +1,25 @@
+# Dependencies
+node_modules
 node_modules/
+
+# Environment files
 .env
+**/.env
 .env.sample
-/src/.env
+.env.local
+.env.development
+.env.production
+.env.test
+src/.env
+
+# Build files
+dist
+build
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE specific files
+.idea
+.vscode
