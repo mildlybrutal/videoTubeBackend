@@ -82,7 +82,7 @@ const publishAVideo = asyncHandler(async (req, res) => {
         throw new ApiError(400, "Title and description are required");
     }
 
-    const existedVideo = await Video.findOne({title});
+    const existedVideo = await Video.findOne({ title });
 
     if (existedVideo) {
         throw new ApiError(409, "Video already exist");
